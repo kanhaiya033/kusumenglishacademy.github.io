@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="logo.png">
+  <meta name="description" content="Kusum English Academy parbhani is a leading English language academy in Parbhani, Maharashtra. We offer a variety of courses for students of all levels, from beginner to advanced. Our experienced teachers will help you improve your English skills in a fun and engaging way.">
+  <meta name="keywords" content="english, english language, english classes, english learning, english speaking, english grammar, english vocabulary, english pronunciation, english writing, parbhani, maharashtra ,kusum english academy,parbhani,classes">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <title>kusum english academy</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -61,7 +63,7 @@
     .list-group-item a {
       text-decoration: none;
       font-size: 20px;
-      color: blue;
+      color: rgb(0, 102, 255);
     }
 
     .contact-address {
@@ -72,8 +74,20 @@
       font-family: 'Roboto Slab', serif;
       font-size: 21px;
       /* justify-content: center; */
-      align-items: center;
-
+    
+    }
+    @media screen and (max-width:550px)
+    {
+      .contact-address {
+      display: flex;
+      font-family: 'Caprasimo', cursive;
+      font-family: 'EB Garamond', serif;
+      font-family: 'Noto Serif', serif;
+      font-family: 'Roboto Slab', serif;
+      font-size: 16px;
+      /* justify-content: center; */
+    
+    }
     }
   </style>
 
@@ -109,7 +123,7 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item me-md-5">
-              <a class="nav-link" href="gallary.html">Gallery</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item me-md-5">
               <a class="nav-link" href="about.html">About</a>
@@ -145,17 +159,20 @@
     </div>
 
     <ul class="list-group list-group-flush card  rounded-2 shadow">
-      <li class="list-group-item d-flex  justify-content-md-start align-items-center">
+      <li class="list-group-item d-flex  justify-content-md-start align-items-center justify-content-between">
         <i class="fa-solid fa-fade fa-phone fa-2x me-3" style="color: rgb(125, 125, 125);"></i>
-        <a href="tel:+919623394343"> <span id="styleNone"></span>+91 9623394343</a>
+        <a href="tel:+919623394343" class="d-flex"> <span id="styleNone"></span>+91 9623394343 <img src="click.gif" alt="" width="80px"></a>
+        
       </li>
-      <li class="list-group-item d-flex  justify-content-md-start align-items-center">
+      <li class="list-group-item d-flex  justify-content-md-start align-items-center justify-content-between">
         <i class="fa-brands fa-whatsapp fa-fade fa-3x me-3" style="color: #27ff24;"></i>
-        <a href="https://wa.me/+919623394343"> <span id="styleNone"></span>+91 9623394343</a>
+        <a href="https://wa.me/+919623394343"> <span id="styleNone"></span>+91 9623394343 <img src="click.gif" alt="" width="80px"></a>
+        
       </li>
-      <li class="list-group-item d-flex  justify-content-md-start align-items-center">
+      <li class="list-group-item d-flex  justify-content-md-start align-items-center justify-content-between">
         <i class="fa-regular fa-fade fa-envelope fa-3x me-3" style="color: #fe0b0b;"></i>
-        <a href="mailto:info@example.com"><span id="styleNone"></span> info@example.com</a>
+        <a href="mailto:keaeng47@gmail.com" class="d-flex"><span id="styleNone"></span>keaeng47@gmail.com  <img src="click.gif"  alt="" width="80px"></a>
+       
       </li>
     </ul>
 
@@ -170,13 +187,12 @@
 
     <div class="container mt-3 card py-3  mb-3 shadow">
       <iframe class="border border-secondary rounded"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.353043158983!2d-122.08487815106545!3d37.38645448417148!2m3!1f0!2f360!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6db38259f5%3A0x4a50937d2b965e08!2sGoogleplex%2C%201600%20Amphitheatre%20Parkway%2C%20Mountain%20View%2C%20CA%2094043%2C%20USA!5e0!3m2!1sen!2sin!4v1665985052707!5m2!1sen!2sin"
-        width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5478.827873267937!2d76.78574056851687!3d19.258597329685493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd019f5784fca7b%3A0x9d618209b3309962!2sKusum%20English%20Academy!5e0!3m2!1sen!2sin!4v1695471996185!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
         tabindex="0"></iframe>
       <div class="card-body text-secondary contact-address">
 
-        <i class="fa-solid fa-location-pin fa-2x me-3" style="color: #ff0000;"></i> Address: vibhav nagar parbhani -
-        431401
+        <i class="fa-solid fa-location-pin fa-2x me-3" style="color: #ff0000;"></i> Address: Kusum English Academy, near Deshmukh Hotel, above
+        Sriniwas Book Store, Vaibhav Nagar, Parbhani, Maharashtra, India
       </div>
     </div>
   </section>
@@ -189,35 +205,36 @@
           <div class="col-lg-4 col-md-6 d-flex justify-content-md-center">
             <div class="footer-flex-child">
               <h4 class="text-white mb-4">Our address</h4>
-              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>vaibhav nager , parbhani - 431401</p>
-              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> (+91) 808 727 1670 </p>
-              <p class="mb-2"><i class="fa fa-envelope me-3"></i> principal.sspi@gmail.com</p>
+              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kusum English Academy, near Deshmukh Hotel, above
+                Sriniwas Book Store, Vaibhav Nagar, Parbhani, Maharashtra, India</p>
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> (+91) 9623394343 </p>
+              <p class="mb-2"><i class="fa fa-envelope me-3"></i>keaeng47@gmail.com</p>
               <div class="d-flex pt-3">
-                <a class="btn btn-square  rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square  rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square  rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square  rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-square  rounded-circle me-2" href="https://www.instagram.com/kusum_english_academy/?utm_source=qr&igshid=MThlNWY1MzQwNA%3D%3D"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-square  rounded-circle me-2" href="https://www.facebook.com/people/Kusum-English-Academy-Parbhani/100088893586400/"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square  rounded-circle me-2" href="https://www.youtube.com/watch?si=YPQ9E0Ld8ShbN6hZ&v=Z7PnbPmxP8k&feature=youtu.be"><i class="fab fa-youtube"></i></a>
+                <a class="btn btn-square  rounded-circle me-2" href="https://jsdl.in/RSL-MVU1695549032"><i class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex justify-content-md-center">
             <div class="footer-flex-child">
               <h4 class="text-white mb-4">Quick Links</h4>
-              <a class="btn btn-link" href="">Home</a>
-              <a class="btn btn-link" href="">Gallery</a>
-              <a class="btn btn-link" href="">About</a>
-              <a class="btn btn-link" href="">Contact Us</a>
+              <a class="btn btn-link" href="index.html">Home</a>
+              <a class="btn btn-link" href="gallary.html">Gallery</a>
+              <a class="btn btn-link" href="about.html">About</a>
+              <a class="btn btn-link" href="contact.html">Contact Us</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex justify-content-md-center">
             <div class="footer-flex-child">
               <h4 class="text-white mb-4">Opening Hours</h4>
               <p class="mb-1">Monday - Saturday</p>
-              <h6 class="text-light">10:00 am - 5:30 pm</h6>
-              <!-- <p class="mb-1">Saturday</p>
-                <h6 class="text-light">09:00 am - 12:00 pm</h6> -->
+              <h6 class="text-light">7:00 am - 7:00 pm</h6>
               <p class="mb-1">Sunday</p>
-              <h6 class="text-light">Closed</h6>
+                <h6 class="text-light">09:00 am - 1:00 pm</h6>
+              <!-- <p class="mb-1">Sunday</p>
+              <h6 class="text-light">Closed</h6> -->
             </div>
           </div>
           <!-- <div class="col-lg-3 col-md-6">
@@ -241,7 +258,7 @@
             &copy; <a class="fw-medium text-light text-decoration-none" href="#">kea</a>, All Right Reserved.
           </div>
           <div class="col-md-6 text-center text-md-end">
-            Designed By <a class="fw-medium text-light text-decoration-none" href="#">kanhaiya chaudhari</a>
+            Designed By <a class="fw-medium text-blue text-decoration-none" href="https://www.linkedin.com/in/kanhaiya-chaudhari-97bb67213/">kanhaiya chaudhari</a>
           </div>
         </div>
       </div>
@@ -256,7 +273,7 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
 
-    <script src="main.js"></script>
+    <script src="library/js/main.js"></script>
 </body>
 
 </html>
